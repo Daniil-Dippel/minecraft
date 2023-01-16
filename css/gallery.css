@@ -1,0 +1,35 @@
+.photo {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.gallery__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+}
+
+.gallery {
+    max-width: 100%;
+    padding-top: 28px;
+    margin-bottom: 100px;
+    max-width: 1264px;
+    margin: 0 auto;
+}
+
+
+/* .photo:hover {
+    -webkit-filter: sepia(1) hue-rotate(200deg) saturate(1);
+    filter: sepia(1) hue-rotate(200deg) saturate(1);
+    width: 95%;
+    height: 95%;
+}
+
+.photo:hover {
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+} */
